@@ -1,0 +1,72 @@
+body{
+    font-family: arial,sans-serif;
+margin: 0;
+background-color: #f5f7fa;}
+nav{
+    background-color: #1f4e79;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h2{
+    margin: 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.hero{
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1{
+    font-size: 45px;
+    color: #1f4e79;
+}
+
+.hero p{
+    font-size: 20px;
+    color:#555;
+}
+.hero button{
+    padding: 12px 25px;
+    border: none;
+    background-color: #1f4e79;
+    color: white;
+    cursor: pointer;
+}
+.Services{
+    text-align: center;
+    padding: 50px;
+}
+.Services h1{
+    color: #1f4e79;
+    font-size: 40px;
+}
+.Service-list{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 25px;
+margin-top: 30px;
+}
+.Service{
+    width: 250px;
+    min-height: 150px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    box-sizing: border-box;
+}
+.Service h2{color: #1f4e79;
+    font-family: 20px;
+}
+.Service p{
+    color: #555;
+    line-height:1.5;
+}
